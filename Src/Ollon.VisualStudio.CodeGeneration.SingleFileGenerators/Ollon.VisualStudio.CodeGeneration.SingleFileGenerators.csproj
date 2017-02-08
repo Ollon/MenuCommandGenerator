@@ -29,7 +29,7 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\Docs\Strong Name Keys\SingleFileGeneratorsSharedKey.snk</AssemblyOriginatorKeyFile>
-    <OutputPath>$(MSBuildProjectDirectory)\..\..\Binaries\$(Configuration)\</OutputPath>
+    <OutputPath>$(MSBuildProjectDirectory)\..\..\Binaries\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
     <IntermediateOutputPath>$(MSBuildProjectDirectory)\..\..\Binaries\Obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>

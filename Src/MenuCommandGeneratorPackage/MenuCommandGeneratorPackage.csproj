@@ -24,10 +24,6 @@
     <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>
     <CopyOutputSymbolsToOutputDirectory>true</CopyOutputSymbolsToOutputDirectory>
   </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\..\Docs\Strong Name Keys\SingleFileGeneratorsSharedKey.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -48,7 +44,7 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\Docs\Strong Name Keys\SingleFileGeneratorsSharedKey.snk</AssemblyOriginatorKeyFile>
-    <OutputPath>$(MSBuildProjectDirectory)\..\..\Binaries\$(Configuration)\</OutputPath>
+    <OutputPath>$(MSBuildProjectDirectory)\..\..\Binaries\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
     <IntermediateOutputPath>$(MSBuildProjectDirectory)\..\..\Binaries\Obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
