@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "Microsoft.VsSDK.BuildTools": "15.0.26201",
+    "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.4"
+  },
+  "frameworks": {
+    "net46": {}
+  },
+  "runtimes": {
+    "win": {}
+  }
+}

@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell;
-using Ollon.VisualStudio.CodeGeneration;
+
+[assembly: ProvideCodeBase(CodeBase = "$PackageFolder$\\Ollon.VisualStudio.CodeGeneration.SingleFileGenerators.dll")]
 
 namespace Ollon.VisualStudio.CodeGeneration
 {

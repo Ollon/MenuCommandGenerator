@@ -2,9 +2,7 @@
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Formatting;
-using Microsoft.CodeAnalysis.Options;
 using Microsoft.VisualStudio.LanguageServices;
-using System.Collections.Generic;
 using System.Threading;
 using System.Xml.Linq;
 

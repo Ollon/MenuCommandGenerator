@@ -1,11 +1,10 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using System.Collections.Generic;
 
 namespace Ollon.VisualStudio.CodeGeneration
 {
-  internal static class FieldGenerator
+    internal static class FieldGenerator
   {
     public static FieldDeclarationSyntax GenerateCommandIDField(string commandName, string commandSetName)
     {
